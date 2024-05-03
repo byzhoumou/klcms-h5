@@ -1,0 +1,21 @@
+body,
+#app,
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background-color: #f7f8fa;
+}
+
+[class*='-container'] {
+    transition:
+        all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+        border 0s,
+        color 0.1s,
+        font-size 0s;
+}

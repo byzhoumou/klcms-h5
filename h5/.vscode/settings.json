@@ -1,0 +1,55 @@
+{
+    "[vue]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint" // Vue 文件使用 Prettier 作为默认格式化工具
+    },
+    "editor.quickSuggestions": {
+        "strings": true // 在字符串中启用快速建议
+    },
+    //   "workbench.colorTheme": "One Monokai", // 使用 One Monokai 颜色主题
+    "workbench.tree.indent": 24, // 设置文件树的缩进大小为24像素
+    "editor.tabSize": 4, // 设置制表符大小为 4 个空格
+    "editor.detectIndentation": false, // 关闭自动检测缩进
+    "emmet.triggerExpansionOnTab": true, // 允许使用 Tab 键触发 Emmet 展开
+    "editor.formatOnSave": true, // 保存文件时自动格式化
+    "javascript.format.enable": true, // 启用 JavaScript 格式化
+    "git.enableSmartCommit": true, // 启用智能提交
+    "git.autofetch": true, // Git 自动获取最新内容
+    "git.confirmSync": false, // 同步时不再确认
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode" // JSON 文件使用 Prettier 作为默认格式化工具
+    },
+    "liveServer.settings.donotShowInfoMsg": true, // 不显示 Live Server 的信息消息
+    "explorer.confirmDelete": false, // 删除文件时不再确认
+    "javascript.updateImportsOnFileMove.enabled": "always", // 移动 JavaScript 文件时自动更新导入路径
+    "typescript.updateImportsOnFileMove.enabled": "always", // 移动 TypeScript 文件时自动更新导入路径
+    "files.exclude": {
+        "**/.idea": true // 排除 .idea 目录
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "stylelint.validate": ["html", "vue", "js", "scss"], // Stylelint 验证的文件类型
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint" // JavaScript 文件使用 Prettier 作为默认格式化工具
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode" // JSONC 文件使用 Prettier 作为默认格式化工具
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode" // HTML 文件使用 Prettier 作为默认格式化工具
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint" // TypeScript 文件使用 Prettier 作为默认格式化工具
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false, // 代码片段不会阻止快速建议
+    "prettier.htmlWhitespaceSensitivity": "ignore", // Prettier 忽略 HTML 中的空白灵敏度
+    "prettier.vueIndentScriptAndStyle": true, // Prettier 在 Vue 文件中缩进 script 和 style 标签
+    "vetur.format.defaultFormatter.html": "prettier", // Vetur 使用 Prettier 格式化 HTML
+    "files.autoSave": "onFocusChange", // 焦点改变时自动保存文件
+    "path-intellisense.mappings": {
+        "@": "${workspaceRoot}/src" // 配置路径别名 "@"
+    },
+    "files.eol": "\n", // 设置文件的行尾字符为 LF
+    "vue.codeActions.enabled": false // 禁用 Vue 代码操作（如快速修复）
+}
